@@ -1,6 +1,6 @@
 {
-    "ipaddr" : "<ipaddr_of_idrac>",
+    "ipaddr" : "192.168.0.120",
     "driver" : "iDRAC",
-    "user.name" : "<idrac_user>",
-    "user.password" : "<idrac_password>"
+    "user.name" : "root",
+    "user.password" : "calvin"
 }
