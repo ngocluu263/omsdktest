@@ -44,4 +44,7 @@ print("INFO: Connected to " + ipaddr)
 #     print('get_virtual_disk(' + VDName + ') = ')
 #     print(PrettyPrint.prettify_json(msg))
 
+
+idrac.update_mgr.update_from_repo(catalog_path='BIOS_NIC')
+
 idrac.disconnect()
