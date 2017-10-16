@@ -45,6 +45,6 @@ print("INFO: Connected to " + ipaddr)
 #     print(PrettyPrint.prettify_json(msg))
 
 
-idrac.update_mgr.update_from_repo(catalog_path='BIOS_NIC')
+#idrac.update_mgr.update_from_repo(catalog_path='BIOS_NIC')
 
 idrac.disconnect()
