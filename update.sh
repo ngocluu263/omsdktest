@@ -11,8 +11,8 @@ CompareInventory=omdrivers.helpers.iDRAC.CompareInventory
 echo "1. Collect inventory for Representative iDRACs"
 echo "   Inventory is stored under ${UpdateRepo}\_inventory folder"
 echo "   Each server inventory is stored as <ipaddr>_firmware.json"
-python -m ${CollectInventory} -f ${UpdateRepo} -u root -p calvin -i 192.168.1.10 192.168.1.11
-python -m ${CollectInventory} -f ${UpdateRepo} -u root -p another_password -i 192.168.1.12 192.168.1.13
+python -m ${CollectInventory} -f ${UpdateRepo} -u root -p calvin -i 192.168.0.120 192.168.0.120
+#python -m ${CollectInventory} -f ${UpdateRepo} -u root -p another_password -i 192.168.1.12 192.168.1.13
 
 echo "2. Download catalog from downloads.dell.com and prepare Scoped Catalog"
 echo "   Master Catalog is downloaded to ${UpdateRepo}\_master\Catalog.xml"
