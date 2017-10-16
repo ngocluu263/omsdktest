@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
 from init_device import sd, dprint
-from init_device import ipaddr, creds, liason_share
+from init_device import ipaddr, creds
 
 dprint("Driver SDK", "1. Connect to " + ipaddr)
 idrac = sd.get_driver(sd.driver_enum.iDRAC, ipaddr, creds)
