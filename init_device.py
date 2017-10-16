@@ -71,15 +71,15 @@ if uname :
 def not_implemented():
     print("===== not implemented ====")
 
-
-if platform.system() == "Windows":
-    liason_share = FileOnShare(remote =nshare,
-        mount_point='Z:\\', isFolder=True,
-        creds = UserCredentials(nsharename, nsharepass))
-else:
-    liason_share = FileOnShare(remote =nshare,
-        mount_point='/tst', isFolder=True,
-        creds = UserCredentials(nsharename, nsharepass))
+#
+# if platform.system() == "Windows":
+#     liason_share = FileOnShare(remote =nshare,
+#         mount_point='Z:\\', isFolder=True,
+#         creds = UserCredentials(nsharename, nsharepass))
+# else:
+#     liason_share = FileOnShare(remote =nshare,
+#         mount_point='/tst', isFolder=True,
+#         creds = UserCredentials(nsharename, nsharepass))
 
 sd = sdkinfra()
 sd.importPath()
