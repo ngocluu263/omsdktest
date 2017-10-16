@@ -44,7 +44,13 @@ print("INFO: Connected to " + ipaddr)
 #     print('get_virtual_disk(' + VDName + ') = ')
 #     print(PrettyPrint.prettify_json(msg))
 
+print "ADDD"
 
-idrac.update_mgr.update_from_repo(catalog_path='Catalog')
+test = idrac.update_mgr.update_from_repo(catalog_path='Catalog')
+
+print test
+
+print "EEEEE"
+
 
 idrac.disconnect()
