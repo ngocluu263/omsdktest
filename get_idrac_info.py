@@ -22,8 +22,8 @@ if idrac is None:
     exit()
 
 print("INFO: Connected to " + ipaddr)
-dprint("Driver SDK", "2. Configure liason share " + str(liason_share))
-idrac.config_mgr.set_liason_share(liason_share)
+# dprint("Driver SDK", "2. Configure liason share " + str(liason_share))
+# idrac.config_mgr.set_liason_share(liason_share)
 
 # VDName = 'OS'
 # dprint("Driver SDK", "3. Delete Virtual Disk" + str(VDName))
