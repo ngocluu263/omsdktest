@@ -74,7 +74,7 @@ echo "                       Unknown   - Firmware absent in Catalog"
 echo "       Server.Version - Version of Firmware in Server"
 echo "       Catalog.Version- Version of Firmware in Catalog"
 echo "       Reboot Required - Whether reboot is required when applying update"
-python -m ${CompareInventory} -f ${UpdateRepo} -o csv > output.csv
+python -m ${CompareInventory} -f ${UpdateRepo} -o csv
 
 # Now export the ${UpdateRepo} as a Share that is accessible to iDRAC
 # Let's say the ${UpdateRep} was present on host ${myhost} and exported as
