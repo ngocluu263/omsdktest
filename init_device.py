@@ -51,7 +51,7 @@ def dprint(module, msg):
 # Initializing Arguments
 ###############################
 
-with open("omsdktest\\idrac.info", "r") as enum_data:
+with open("idrac.info", "r") as enum_data:
     _argsinfo = json.load(enum_data)
 
 ipaddr = _get_args('ipaddr')
