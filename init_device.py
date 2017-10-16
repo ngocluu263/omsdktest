@@ -10,7 +10,7 @@ from omsdk.sdkcreds import UserCredentials,ProtocolCredentialsFactory
 from omsdk.sdkprint import PrettyPrint
 from omsdk.sdkfile import FileOnShare
 from omsdk.sdkinfra import sdkinfra
-from omsdk.omlog.Logger import LogManager, LoggerConfigTypeEnum
+from omsdk.omlogs.Logger import LogManager, LoggerConfigTypeEnum
 from omdrivers.enums.iDRAC.iDRACEnums import *
 
 #LogManager.setup_logging()
